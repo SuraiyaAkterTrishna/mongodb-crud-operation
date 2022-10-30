@@ -16,7 +16,6 @@ const AddUser = () => {
           })
         .then(res => res.json())
         .then(data => {
-            console.log(data);
             alert('User added successfully');
             event.target.reset();
         })
